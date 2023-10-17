@@ -1,13 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&family=Lato&family=Montserrat+Alternates:wght@300&family=Mukta:wght@300&family=Noto+Sans+JP&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
+  background-color: rgb(25, 25, 25);
+  color: #c0c0c0;
+
+  font-family: "DM Sans", sans-serif;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  color: #c0c0c0;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  color: #c0c0c0;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+span,
+button,
+p,
+input {
+  font-family: "Inter", sans-serif;
+}
+
+select {
+  font-family: "DM Sans", sans-serif;
+  color: #c0c0c0;
+}
+
+option {
+  font-family: "DM Sans", sans-serif;
+}
+
+.japanese {
+  color: #c0c0c0;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 14px;
+  }
 }
